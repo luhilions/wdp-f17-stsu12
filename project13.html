@@ -6,11 +6,12 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Page Title Goes Here</title>
 <style type="text/css"> 
- .textbox {
-width: 400px;
-height: 480px;
-margin: 0px auto;}  
-  .col1{height: 150px}    
+ .odd {
+background-color: green;}
+  .even {
+background-color: yellow;}
+  .col1{height: 150px
+ background-color: blue; }    
   body {margin: 0px auto;
  font-size: 20px;
  font-family: Arial;}
@@ -18,36 +19,36 @@ margin: 0px auto;}
   </head>
 
   <body>
-    <table border="4">
-    <tr>
-      <th class="col1">Description</th>
-      <th class="col1">result</th>
+    <table class="body" border="1">
+    <tr class="col1">
+      <th>Description</th>
+      <th>result</th>
     </tr>
-      <tr>
+      <tr class="odd">
       <td>Fraction 3/4</td>
       <td>&frac34; </td>
     </tr>
-      <tr>
+      <tr class="even">
       <td>Copyright</td>
       <td>&copy;  </td>
     </tr>
-        <tr>
+        <tr class="odd">
       <td>Ampersand</td>
       <td>&amp;  </td>
     </tr>
-        <tr>
+        <tr class="even">
       <td>Less than</td>
       <td>&lt;  </td>
     </tr>
-        <tr>
+        <tr class="odd">
       <td>Greater than</td>
       <td>&gt;  </td>
     </tr>
-       <tr>
+       <tr class="even">
       <td>Division</td>
       <td>&divide;  </td>
     </tr>
-       <tr>
+       <tr class="odd">
       <td>Spade</td>
       <td>&spades;  </td>
     </tr>
