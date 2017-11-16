@@ -11,3 +11,7 @@
  top: 40px;
  left: 110px;
  z-index: 1;} 
+gradient {
+ background-image: url('../img/gradient.jpg');
+ background-repeat: repeat-x;
+ background-color: gray;}
