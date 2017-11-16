@@ -26,6 +26,6 @@
  top: 80px;
  left: 110px;
  z-index: 1;} 
-gradient { background-image: url('../images/gradient.jpg');
+.gradient { background-image: url('../images/gradient.jpg');
  background-repeat: repeat-x;
  background-color: gray;}
