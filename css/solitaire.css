@@ -13,19 +13,19 @@
  .back1 { position: absolute;
  top: 50px;
  left: 110px;
- z-index: 2;} 
+ z-index: 1;} 
 . back2 { position: absolute;
  top: 60px;
  left: 110px;
- z-index: 3;} 
+ z-index: 1;} 
 .back3 { position: absolute;
  top: 70px;
  left: 110px;
- z-index: 4;} 
+ z-index: 1;} 
 .back4 { position: absolute;
  top: 80px;
  left: 110px;
- z-index: 5;} 
+ z-index: 1;} 
 gradient { background-image: url('../images/gradient.jpg');
  background-repeat: repeat-x;
  background-color: gray;}
