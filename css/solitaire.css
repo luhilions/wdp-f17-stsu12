@@ -6,11 +6,11 @@
  position: relative;
  top: 25px;
  left: 25px;}
- .back { position: absolute;
+ .back4 { position: absolute;
  top: 40px;
  left: 110px;
  z-index: 1;} 
- .back1 { position: absolute;
+ .back3 { position: absolute;
  top: 50px;
  left: 110px;
  z-index: 1;} 
@@ -18,11 +18,11 @@
  top: 60px;
  left: 110px;
  z-index: 1;} 
-.back3 { position: absolute;
+.back1 { position: absolute;
  top: 70px;
  left: 110px;
  z-index: 1;} 
-.back4 { position: absolute;
+.back { position: absolute;
  top: 80px;
  left: 110px;
  z-index: 1;} 
