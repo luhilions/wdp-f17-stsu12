@@ -8,14 +8,21 @@
   </head>
 
   <body>
-  <form method="post" action="process.php" class="feedback">
+  <form method="post" action="process.php" class="feedback"><fieldset>
+<legend>Give Us Your Feedback</legend>
     Full Name: <br/>
- <input type="text" size="20" name="Full Name" /><br />
+ <input type="text" size="50" name="Full Name" /><br />
 Year: <br/>
-<input type="radio" name="eye" value="Freshman" />Freshman<br />
-<input type="radio" name="eye" value="Sophomore" />Sophomore<br />
-<input type="radio" name="eye" value="Junior" />Junior<br />
-<input type="radio" name="eye" value="Senior" />Senior<br />
+<input type="radio" name="year" value="Freshman" />Freshman<br />
+<input type="radio" name="year" value="Sophomore" />Sophomore<br />
+<input type="radio" name="year" value="Junior" />Junior<br />
+<input type="radio" name="year" value="Senior" />Senior<br />
+  Activities: <br/>
+    <input type="checkbox" name="activities" value="Sports">Sports<br />
+<input type="checkbox" name="activities" value="Music">Music<br />
+    <input type="checkbox" name="activities" value="Theater">Thearter<br />
+    <input type="checkbox" name="activities" value="Other">Other<br />
+    </fieldset>
   </form>
   </body>
 
